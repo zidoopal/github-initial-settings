@@ -1,99 +1,64 @@
+깃 허브 이슈템플릿 issue
+
 [
-  {
-    "name": "Priority: Critical",
-    "color": "8c001a",
-    "description": "우선순위 긴급"
-  },
-  {
-    "name": "Priority: High",
-    "color": "FF0000",
-    "description": "우선순위 상"
-  },
-  {
-    "name": "Priority: Low",
-    "color": "F9966b",
-    "description": "우선순위 하"
-  },
-  {
-    "name": "Priority: Medium",
-    "color": "E77471",
-    "description": "우선순위 중"
-  },
-  {
-    "name": "Status: Done",
-    "color": "a0ffb8",
-    "description": "리뷰까지 완료 된 이슈"
-  },
-  {
-    "name": "Status: Duplicated",
-    "color": "cfd3d7",
-    "description": "이미 보고 된 이슈",
-    "aliases": [
-      "duplicate"
-    ]
-  },
-  {
-    "name": "Status: In Progress",
-    "color": "539606",
-    "description": "현재 처리 중인 이슈"
-  },
-  {
-    "name": "Status: Pending",
-    "color": "66e26c",
-    "description": "보류 중인 이슈",
-    "aliases": [
-      "wontfix"
-    ]
-  },
-  {
-    "name": "Status: Reviewing",
-    "color": "2db78b",
-    "description": "처리하고 리뷰 중인 이슈"
-  },
-  {
-    "name": "Status: To Do",
-    "color": "757c06",
-    "description": "처리해야 되는 이슈"
-  },
-  {
-    "name": "Type: Bugfix/Function",
-    "color": "d73a4a",
-    "description": "정상 동작하지 않는 기능",
-    "aliases": [
-      "bug"
-    ]
-  },
-  {
-    "name": "Type: Bugfix/UI",
-    "color": "b60205",
-    "description": "정상 표시되지 않는 UI"
-  },
-  {
-    "name": "Type: Feature/Document",
-    "color": "0075ca",
-    "description": "문서 추가 및 보완 작업"
-  },
-  {
-    "name": "Type: Feature/Function",
+{
+    "name": "⚙ Setting",
+    "color": "e3dede",
+    "description": "개발 환경 세팅"
+},
+{
+    "name": "✨ Feature",
     "color": "a2eeef",
-    "description": "새로운 기능 및 개선 사항",
-    "aliases": [
-      "enhancement"
-    ]
-  },
-  {
-    "name": "Type: Feature/UI",
-    "color": "7057ff",
-    "description": "UI 수정 및 개선 사항"
-  },
-  {
-    "name": "Type: Hotfix",
-    "color": "de8ae2",
-    "description": "급하게 수정해야 되는 사항"
-  },
-  {
-    "name": "Type: Release",
-    "color": "c2e0c6",
-    "description": "배포 관련 이슈"
-  }
+    "description": "기능 개발"
+},
+{
+    "name": "🌏 Deploy",
+    "color": "C2E0C6",
+    "description": "배포 관련"
+},
+{
+    "name": "🎨 Html&css",
+    "color": "FEF2C0",
+    "description": "마크업 & 스타일링"
+},
+{
+    "name": "🐞 BugFix",
+    "color": "d73a4a",
+    "description": "Something isn't working"
+},
+{
+    "name": "💻 CrossBrowsing",
+    "color": "C5DEF5",
+    "description": "브라우저 호환성"
+},
+{
+    "name": "📃 Docs",
+    "color": "1D76DB",
+    "description": "문서 작성 및 수정 (README.md 등)"
+},
+{
+    "name": "📬 API",
+    "color": "D4C5F9",
+    "description": "서버 API 통신"
+},
+{
+    "name": "🔨 Refactor",
+    "color": "f29a4e",
+    "description": "코드 리팩토링"
+},
+{
+    "name": "🙋‍♂️ Question",
+    "color": "9ED447",
+    "description": "Further information is requested"
+},
+{
+    "name": "🥰 Accessibility",
+    "color": "facfcf",
+    "description": "웹접근성 관련"
+},
+{
+    "name": "✅ Test",
+    "color": "ccffc4",
+    "description": "test 관련(storybook, jest…)"
+}
 ]
